@@ -1,25 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <title>DFA-jQTouch</title>
-    <link rel="stylesheet" href="jqt/themes/css/jqtouch.css" title="jQTouch">
-    <script src="jqt/src/lib/zepto.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="jqt/src/jqtouch.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="jqt/extensions/jqt.themeswitcher.min.js" type="application/x-javascript" charset="utf-8"></script>
-    <script src="application.js"></script>
+    <title>DiscretionaryFundingApp</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'defaults', 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
   </head>
-
-  <body>
-    <div id="jqt">
-      <div id="home" class="current">
-        <div class="toolbar">
-          <h1>DFA Lite App</h1>
-        </div>
-        <div class="scroll">
-          <%= yield %>
-        </div>
-      </div>
-    </div>
-  </body>
+<body>
+  <h2>Discretionary Spending App!</h2>
+</body>
 </html>
